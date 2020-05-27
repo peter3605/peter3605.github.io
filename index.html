@@ -1,26 +1,239 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Peter Ho</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="main">
-        		<h1>Hi there, I'm Peter Ho!</h1>
-			<p>As you can see, this page is currently in progress.</p>
-		</div>
-		<footer>
-			<b>Last modified: 11:01 5/25/2020</b>
-		</footer>
-	</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Peter Ho</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Loading Screen -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Page-->
+        <header class="mainpage">
+            <div class="container h-100">
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-white font-weight-bold font-size-big">Peter Ho</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About -->
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About Me</h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-white-50 mb-4">I am currently a rising junior at the University of Maryland, College Park double majoring in computer science and mathematics. I love using programming to create new and amazing things, and I am always looking to learn some new skills!<br><br>
+                        <p class="text-white-50 mb-4">Right now, my greatest strength is using Java and Python to build out backend systems. Here are some of the languages/technologies that I have worked with:<br>
+                        <div class="skill-list text-white-50">
+                            <ul>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>SQL/MySQL/SQLAlchemy</li>
+                                <li>Javascript</li>
+                                <li>HTML/CSS</li>
+                                <li>Docker</li>
+                                <li>Flask</li>
+                                <li>Matlab</li>
+                                <li>PyTorch</li>
+                            </ul>
+                        </div>
+                        <br><br>
+                        <!-- Resume button -->
+                        <a class="btn btn-secondary btn-xl js-scroll-trigger" target="_blank" href="assets/resume.pdf">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience -->
+        <section class="page-section" id="experience">
+            <h2 class="text-center mt-0">Past Experience</h2><br>
+            <div class="timeline">
+              <div class="entry">
+                <div class="title">
+                  <h3>June 2020 - Present</h3>
+                  <p>PayPal Credit</p>
+                </div>
+                <div class="body">
+                  <p>Software Engineering Intern</p>
+                  <ul>
+                    <li>Incoming backend software engineering intern at PayPal - Credit Division in Timonium, MD</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="title">
+                  <h3>March 2019 - Present</h3>
+                  <p>Terrapin Works</p>
+                </div>
+                <div class="body">
+                  <p>Student Software Developer</p>
+                  <ul>
+                    <li>Develop and maintain in house software projects for the organization</li>
+                    <li>Build a variety of external client projects from web applications to app development</li>
+                  </ul>
+                  <p>Makerbot Innovation Center Lab Manager</p>
+                  <ul>
+                    <li>Process, splice, and start 3D print requests</li>
+                    <li>Assist customers with CAD design issues</li>
+                    <li>Maintain and repair 3D printers and parts</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="title">
+                  <h3>June 2017 - July 2018</h3>
+                  <p>Chateau Ridge LLC</p>
+                </div>
+                <div class="body">
+                  <p>Software Development Intern</p>
+                  <ul>
+                    <li>Developed a more efficient way of billing tenants for a real estate company based in Baltimore</li>
+                    <li>Installed meters that recorded data about utilities usage of each apartment</li>
+                    <li>Built a program in Java that connected via FTP to these meters, downloaded and stored the data in an AWS
+                    database, and automated the billing process</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="title">
+                  <h3>September 2016 - May 2018</h3>
+                  <p>Johns Hopkins Applied Physics Laboratory</p>
+                </div>
+                <div class="body">
+                  <p>Asymmetric Operations Sector Intern</p>
+                  <ul>
+                    <li>Designed and built a sentiment analysis algorithm using various techniques – trained and tested the model on live
+                    Twitter data using the Tweepy python library to calculate sentiment of tweets</li>
+                  </ul>
+                  <p>Space Exploration Sector Intern</p>
+                  <ul>
+                    <li>Led a team of interns to develop, improve, and maintain an inventory management used by members of my
+                    mentor’s team – system was created using Java</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <h2 class="text-center mt-0">Some Of My Projects</h2>
+                <hr class="divider my-4" />
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/BillApp.png"
+                            ><img class="img-fluid" src="assets/img/portfolio/BillApp.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Automated Utilities Billing for Rental Properties</div>
+                            </div></a
+                        >
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/twitter.png"
+                            ><img class="img-fluid" src="assets/img/portfolio/twitter.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Twitter Sentiment Analysis</div>
+                            </div></a
+                        >
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/pacman.gif"
+                            ><img class="img-fluid" src="assets/img/portfolio/pacman.gif" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Pacman Deep Learning Algorithms</div>
+                            </div></a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Contact Me</h2>
+                        <hr class="divider my-4" />
+                        <p class="text-muted mb-5">Feel free to reach out anytime!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mr-auto text-center">
+                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                        <a class="d-block" href="mailto:pho9537@umd.edu">pho9537@umd.edu</a>
+                    </div>
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                        <a href="https://www.linkedin.com/in/peter-h-aba2b612b/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-3x mb-3 text-muted"></i>
+                            <div>Add me on Linkedin</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                        <a href="https://github.com/peter3605" target="_blank">
+                            <i class="fab fa-github fa-3x mb-3 text-muted"></i>
+                            <div>View my Github Page</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- Loading Screen JS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
