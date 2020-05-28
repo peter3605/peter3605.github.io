@@ -7,6 +7,11 @@ $(document).ready(function() {
 	
 });
 $(document).ready(function(){
-    $('html').animate({scrollTop:0}, 1);
-    $('body').animate({scrollTop:0}, 1);
+    $('html, body').scrollTop(0);
+
+    $(window).on('load', function() {
+    setTimeout(function(){
+        $('html, body').scrollTop(0);
+    }, 0);
+ });
 });
