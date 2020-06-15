@@ -14,8 +14,4 @@ $(document).ready(function(){
         $('html, body').scrollTop(0);
     }, 0);
  });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 7bb9e477c8d23b901834951a951fd7f67082601e
