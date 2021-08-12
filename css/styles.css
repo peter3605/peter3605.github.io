@@ -10281,10 +10281,12 @@ header.mainpage h1 {
 .entry .title h3 {
   margin: 0;
   font-size: 90%;
+  color: black;
 }
 .entry .title p {
   margin: 0;
   font-size: 120%;
+  color: #1f0073
 }
 .entry .body {
   margin: 0 0 3em;
@@ -10294,13 +10296,14 @@ header.mainpage h1 {
 }
 .entry .body p {
   line-height: 1.4em;
+  color: #1f0073
 }
 .entry .body p:first-child {
   margin-top: 0;
   font-weight: 400;
 }
 .entry .body ul {
-  color: #aaa;
+  color: black;
   padding-left: 0;
   list-style-type: none;
 }
